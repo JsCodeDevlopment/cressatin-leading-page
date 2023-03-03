@@ -10,8 +10,8 @@
 }
 .home{
     background: linear-gradient(180deg, #D37597 0%, #FF8A84 98.5%);
-    width: 100vw;
-    min-height: 63rem;
+    width: 100%;
+    min-height: 62.5rem;
 }
 #folha{
     max-width: 392px;
@@ -20,7 +20,7 @@
 .main-text{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     margin-top: -29rem;
 }
 .main{
@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
 }
 .p{
     display: flex;
@@ -39,7 +39,7 @@
 .produto{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     margin: 1rem 0;
     flex-wrap: wrap;
 }
@@ -61,7 +61,7 @@
 .btn{
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
+    max-width: 100%;
     margin-top: 3rem;
     gap: 1rem;
 }
