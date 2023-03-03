@@ -1,0 +1,75 @@
+*{
+    border: 0; padding: 0; margin: 0; box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    --cor-principal: #ffff;
+    --cor-secundaria: #F8E183;
+    --cor-terciaria: #0000;
+    --cor-quaternaria: #2B9C3B;
+}
+.home{
+    background: linear-gradient(180deg, #D37597 0%, #FF8A84 98.5%);
+    width: 100vw;
+    min-height: 63rem;
+}
+#folha{
+    max-width: 392px;
+    height: 300px;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: -29rem;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20rem;
+}
+.produto{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+.last-complement{
+    align-self: flex-end;
+}
+#product{
+    width: 29rem;
+    height: 36rem;
+}
+.complementar-text{
+    width: 21rem;
+    height: 6rem;
+}
+.complementar-text-1{
+    width: 30rem;
+    height: 6rem;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+.btn > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}

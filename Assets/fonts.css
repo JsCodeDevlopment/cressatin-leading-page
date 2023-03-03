@@ -1,0 +1,19 @@
+.titulo-principal {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 6rem;
+  color: var(--cor-secundaria);
+}
+.spam {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--cor-principal);
+}
+p {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--cor-principal);
+  text-align: center;
+}
