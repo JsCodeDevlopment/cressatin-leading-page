@@ -3,10 +3,17 @@
 }
 :root{
     font-size: 62.5%;
-    --cor-principal: #ffff;
+    --cor-principal: #fff;
     --cor-secundaria: #F8E183;
-    --cor-terciaria: #0000;
+    --cor-terciaria: #000;
     --cor-quaternaria: #2B9C3B;
+}
+img {
+    pointer-events: none;
+}
+body{
+    width: 100%;
+    height: 100%;
 }
 .home{
     background: linear-gradient(180deg, #D37597 0%, #FF8A84 98.5%);
@@ -72,4 +79,37 @@
 }
 a {
     text-decoration: none;
+}
+.page-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.main-text-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    height: 9.5rem;
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 5rem;
+    gap: 9rem;
+    align-items: center;
+    justify-content: center;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    background-color: var(--cor-terciaria);
 }

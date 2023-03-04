@@ -17,3 +17,10 @@ p {
   color: var(--cor-principal);
   text-align: center;
 }
+.p-main-text-2{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+}
