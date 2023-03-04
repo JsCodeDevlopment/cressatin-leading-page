@@ -16,7 +16,9 @@ body{
     height: 100%;
 }
 .home{
-    background: linear-gradient(180deg, #D37597 0%, #FF8A84 98.5%);
+    background: url(/Imagens/folhas.png), linear-gradient(180deg, #D37597 0%, #FF8A84 98.5%);
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
     width: 100%;
     min-height: 62.5rem;
 }
@@ -28,7 +30,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: -29rem;
 }
 .main{
     display: flex;
@@ -112,4 +113,43 @@ a {
     gap: 1rem;
     width: 100%;
     background-color: var(--cor-terciaria);
+}
+.complementar-text-2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 454px) {
+    #folha{
+        width: 60%;
+        height: 20%;
+    }
+    .main > div{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .p{
+        padding: 0;
+    }
+    img{
+        width: 80%;
+        height: auto;
+    }
+    .content{
+        gap: 2rem;
+    }
+    .titulo-principal{
+        font-size: 5rem !important;
+    }
+    .spam{
+        font-size: 3rem !important;
+    }
+    p{
+        font-size: 1.5rem !important;
+    }
 }
