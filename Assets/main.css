@@ -87,6 +87,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-top: 1rem;
 }
 .main-text-2{
     display: flex;
@@ -121,6 +122,15 @@ a {
     align-items: center;
     justify-content: center;
 }
+.main-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 6rem;
+    margin-bottom: 1rem;
+}
 @media (max-width: 454px) {
     #folha{
         width: 60%;
@@ -151,5 +161,13 @@ a {
     }
     p{
         font-size: 1.5rem !important;
+    }
+    #video-1{
+        width: 300px;
+        height: auto;
+    }
+    #video-2{
+        height: 300px;
+        width: 200px;
     }
 }
