@@ -1,7 +1,4 @@
-.card-1{
-    background-image: url(../Imagens/Produtos/1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.produtos{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,12 +8,14 @@
     width: 262px;
     padding: 0 10px 15px 10px;
 }
-.card-1 > p{
-    color: var(--cor-terciaria);
-}
-.card-1 >img{
+#card-frete{
     width: 104%;
 }
 #btn-card{
     width: 70%;
+}
+.primeiro-produto{
+    background-image: url(../Imagens/Produtos/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }

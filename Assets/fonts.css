@@ -32,13 +32,13 @@ p {
   color: var(--cor-secundaria);
   text-align: center;
 }
-.p-card-1{
+.produto-title{
   font-family: "Montserrat";
   font-weight: 800;
   font-size: 2.5rem;
   color: var(--cor-terciaria);
 }
-.p-card-2{
+.produto-descricao{
   font-family: "Montserrat";
   font-weight: 800;
   font-size: 1rem;
