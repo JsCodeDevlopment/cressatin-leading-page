@@ -1,0 +1,22 @@
+.card-1{
+    background-image: url(/Imagens/Produtos/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+    height: 470px;
+    width: 262px;
+    padding: 0 10px 15px 10px;
+}
+.card-1 > p{
+    color: var(--cor-terciaria);
+}
+.card-1 >img{
+    width: 104%;
+}
+#btn-card{
+    width: 70%;
+}
