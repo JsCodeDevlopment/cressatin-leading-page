@@ -16,7 +16,7 @@ body{
     height: 100%;
 }
 .home{
-    background: url(/Imagens/folhas.png), linear-gradient(180deg, #D37597 0%, #FF8A84 98.5%);
+    background: url(../Imagens/folhas.png), linear-gradient(180deg, #D37597 0%, #FF8A84 98.5%);
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
     width: 100%;
