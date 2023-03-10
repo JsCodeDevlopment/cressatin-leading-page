@@ -19,10 +19,7 @@ body {
   height: 100%;
 }
 .home {
-  background: url(../Imagens/folhas.png),
-    linear-gradient(180deg, #d37597 0%, #ff8a84 98.5%);
-  background-repeat: no-repeat;
-  mix-blend-mode: multiply;
+  background: linear-gradient(180deg, #d37597 0%, #ff8a84 98.5%);
   width: 100%;
   min-height: 62.5rem;
 }
@@ -165,11 +162,6 @@ a {
   height: 300px;
 }
 @media (max-width: 454px) {
-  .home {
-    background: url(../Imagens/Produtos/flowers.png), linear-gradient(180deg, #d37597 0%, #ff8a84 98.5%);
-    background-repeat: no-repeat;
-    mix-blend-mode: multiply;
-  }
   #folha {
     width: 60%;
     height: 20%;
