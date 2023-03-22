@@ -161,6 +161,23 @@ a {
   width: 250px;
   height: 300px;
 }
+.questions{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--cor-terciaria);
+  padding-bottom: 2rem;
+}
+.quest{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+
 @media (max-width: 454px) {
   #folha {
     width: 60%;

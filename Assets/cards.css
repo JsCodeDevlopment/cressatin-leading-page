@@ -54,5 +54,11 @@
 }
 .decimoTer-produto{
     background-image: url(../Imagens/Produtos/12.png);
-    
+}
+
+
+.details-button{
+    background-color: var(--cor-principal);
+    width: 50rem;
+    padding: 1rem;
 }
