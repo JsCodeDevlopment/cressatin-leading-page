@@ -188,7 +188,7 @@ a {
   background-color: var(--cor-3);
 }
 .page-3{
-  background-color: var(--cor-4);
+  background-color: var(--cor-5);
 }
 .rodape{
   padding: 1rem 0;
@@ -197,9 +197,26 @@ a {
   background-color: var(--cor-5);
 }
 .color{
-  background-color: var(--cor-4);
+  background-color: var(--cor-5);
 }
-
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  background-color: var(--cor-1);
+}
+.box-inf{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.cartoes{
+  width: 20rem;
+}
 
 @media (max-width: 454px) {
   #folha {

@@ -56,9 +56,15 @@ summary{
   font-family: "Montserrat";
   font-weight: 800;
   font-size: 1.5rem;
-  color: var(--cor-terciaria);
+  color: var(--cor-4);
 }
 .quest-title-color{
   color: var(--cor-1);
   background-color: var(--cor-4);
+}
+.footer-text{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--cor-terciaria);
 }
