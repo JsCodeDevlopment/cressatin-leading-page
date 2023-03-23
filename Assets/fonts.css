@@ -22,14 +22,14 @@ p {
   font-family: "Montserrat";
   font-weight: 800;
   font-size: 2rem;
-  color: var(--cor-terciaria);
+  color: var(--cor-1);
   text-align: center;
 }
 .p-main-text-3{
   font-family: "Montserrat";
   font-weight: 800;
   font-size: 2rem;
-  color: var(--cor-secundaria);
+  color: var(--cor-1);
   text-align: center;
 }
 .produto-title{
@@ -57,4 +57,8 @@ summary{
   font-weight: 800;
   font-size: 1.5rem;
   color: var(--cor-terciaria);
+}
+.quest-title-color{
+  color: var(--cor-1);
+  background-color: var(--cor-4);
 }

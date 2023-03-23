@@ -10,6 +10,11 @@
   --cor-secundaria: #f8e183;
   --cor-terciaria: #000;
   --cor-quaternaria: #2b9c3b;
+  --cor-1: #493443;
+  --cor-2: #eb6077;
+  --cor-3: #f0b49e;
+  --cor-4: #f0e2be;
+  --cor-5: rgb(255 232 235);
 }
 img {
   pointer-events: none;
@@ -90,7 +95,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 1rem;
+  background-color: var(--cor-3);
 }
 .main-text-2 {
   display: flex;
@@ -99,6 +104,7 @@ a {
   padding: 0 2rem;
   height: 9.5rem;
   width: 100%;
+  background-color: var(--cor-3);
 }
 .content {
   display: flex;
@@ -116,7 +122,7 @@ a {
   justify-content: center;
   gap: 1rem;
   width: 100%;
-  background-color: var(--cor-terciaria);
+  background-color: var(--cor-1);
 }
 .complementar-text-2 {
   display: flex;
@@ -140,8 +146,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 1rem;
-  background-color: var(--cor-terciaria);
+  background-color: var(--cor-1);
 }
 .cards-0 {
   width: 260px;
@@ -156,6 +161,7 @@ a {
   padding: 0 15px;
   justify-content: center;
   margin-bottom: 1rem;
+  background-color: var(--cor-5);
 }
 .cards-2 {
   width: 250px;
@@ -166,17 +172,34 @@ a {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  background-color: var(--cor-terciaria);
+  background-color: var(--cor-3);
   padding-bottom: 2rem;
 }
 .quest{
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: start;
+  padding-top: 2rem;
   width: 100%;
 }
+.new-bg-color{
+  background-color: var(--cor-3);
+}
+.page-3{
+  background-color: var(--cor-4);
+}
+.rodape{
+  padding: 1rem 0;
+}
+.new-bg{
+  background-color: var(--cor-5);
+}
+.color{
+  background-color: var(--cor-4);
+}
+
 
 @media (max-width: 454px) {
   #folha {
