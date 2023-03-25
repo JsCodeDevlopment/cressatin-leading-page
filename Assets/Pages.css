@@ -18,3 +18,8 @@
 a{
     text-decoration: none;
 }
+@media (max-width: 774px){
+    .align{
+        padding: 3rem 3rem;
+    }
+}
