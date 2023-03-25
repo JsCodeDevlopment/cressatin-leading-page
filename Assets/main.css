@@ -258,3 +258,8 @@ footer{
     width: 200px;
   }
 }
+@media (max-width: 320px) {
+  summary {
+    font-size: 1.5rem !important;
+  }
+}
